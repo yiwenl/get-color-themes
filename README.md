@@ -2,7 +2,7 @@
 Get random color theme ( of 5 colors )
 
 ## Installation
-```npm install get-color-theme```
+```npm install get-color-themes```
 
 ## Usage 
 `const getColorTheme = (mType = 1, mReturnType = 'Array')`
@@ -12,7 +12,7 @@ mReturnType : 'Array' or 'Object'
 
 
 ```
-import getColorTheme from '../build/get-color-theme.js';
+import getColorTheme from 'get-color-themes';
 
 const colors0 = getColorTheme(1, 'Array'); /* [[1, .5, .2] ... ] */
 const colors1 = getColorTheme(1, 'Object'); /* [{r:1, g:.5, b:.2} ... ] */
